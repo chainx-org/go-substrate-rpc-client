@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	gsrpc "github.com/Phala-Network/go-substrate-rpc-client/v3"
-	"github.com/Phala-Network/go-substrate-rpc-client/v3/config"
-	"github.com/Phala-Network/go-substrate-rpc-client/v3/types"
+	gsrpc "github.com/chainx-org/go-substrate-rpc-client/v3"
+	"github.com/chainx-org/go-substrate-rpc-client/v3/config"
+	"github.com/chainx-org/go-substrate-rpc-client/v3/types"
 	"github.com/stretchr/testify/assert"
 )
 

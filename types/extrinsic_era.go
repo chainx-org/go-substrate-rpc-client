@@ -17,7 +17,7 @@
 package types
 
 import (
-	"github.com/Phala-Network/go-substrate-rpc-client/v3/scale"
+	"github.com/chainx-org/go-substrate-rpc-client/v3/scale"
 )
 
 // ExtrinsicEra indicates either a mortal or immortal extrinsic

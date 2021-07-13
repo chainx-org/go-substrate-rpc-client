@@ -17,7 +17,7 @@
 package author
 
 import (
-	"github.com/Phala-Network/go-substrate-rpc-client/v3/types"
+	"github.com/chainx-org/go-substrate-rpc-client/v3/types"
 )
 
 // PendingExtrinsics returns all pending extrinsics, potentially grouped by sender

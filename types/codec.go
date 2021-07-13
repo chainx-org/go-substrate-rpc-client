@@ -23,7 +23,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/Phala-Network/go-substrate-rpc-client/v3/scale"
+	"github.com/chainx-org/go-substrate-rpc-client/v3/scale"
 	"golang.org/x/crypto/blake2b"
 )
 

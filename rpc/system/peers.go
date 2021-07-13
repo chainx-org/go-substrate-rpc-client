@@ -17,7 +17,7 @@
 package system
 
 import (
-	"github.com/Phala-Network/go-substrate-rpc-client/v3/types"
+	"github.com/chainx-org/go-substrate-rpc-client/v3/types"
 )
 
 // Peers retrieves the currently connected peers

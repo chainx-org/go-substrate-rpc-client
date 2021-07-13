@@ -17,7 +17,7 @@
 package chain
 
 import (
-	"github.com/Phala-Network/go-substrate-rpc-client/v3/client"
+	"github.com/chainx-org/go-substrate-rpc-client/v3/client"
 )
 
 // Chain exposes methods for retrieval of chain data

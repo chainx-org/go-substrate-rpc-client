@@ -19,7 +19,7 @@ package types
 import (
 	"math/big"
 
-	"github.com/Phala-Network/go-substrate-rpc-client/v3/scale"
+	"github.com/chainx-org/go-substrate-rpc-client/v3/scale"
 )
 
 type UCompact big.Int

@@ -3,7 +3,7 @@ package offchain
 import (
 	"fmt"
 
-	"github.com/Phala-Network/go-substrate-rpc-client/v3/types"
+	"github.com/chainx-org/go-substrate-rpc-client/v3/types"
 )
 
 // StorageKind ...

@@ -41,7 +41,10 @@ func (u *UCompact) Decode(decoder scale.Decoder) error {
 	*u = UCompact(*ui)
 	return nil
 }
-
+func (u *UCompact) Int64() int64 {
+	i := big.Int(*u)
+	return i.Int64()
+}
 func (u UCompact) Encode(encoder scale.Encoder) error {
 	err := encoder.EncodeUintCompact(big.Int(u))
 	if err != nil {

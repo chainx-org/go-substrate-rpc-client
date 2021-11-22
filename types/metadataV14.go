@@ -300,14 +300,15 @@ func (s StorageEntryMetadataV14) IsPlain() bool {
 }
 
 func (s StorageEntryMetadataV14) IsMap() bool {
-	return s.Type.IsMap
+	return false
 }
 
 func (s StorageEntryMetadataV14) IsDoubleMap() bool {
-	panic(unsupportedMapVariantCheck("IsDoubleMap"))
+	return false
 }
+
 func (s StorageEntryMetadataV14) IsNMap() bool {
-	panic(unsupportedMapVariantCheck("IsNMap"))
+	return s.Type.IsMap
 }
 
 func (s StorageEntryMetadataV14) Hasher() (hash.Hash, error) {
